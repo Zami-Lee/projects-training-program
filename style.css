@@ -1,0 +1,47 @@
+body{
+    background-color:#FAC8CD;
+    color:#5B618A;
+    line-height: 1.6em;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.header-image{
+    width: 100%;
+    height: 200px;
+    background-image: url('headerimage.jpg');
+    border-radius: 5px;
+}
+
+.header-image h1{
+    color:#5B507A;
+}
+
+.bio-image img{
+    transform: scale(0.15, 0.15);
+    transform-origin: center 20px;
+    border-radius: 50%;
+}
+
+.header-image h1{
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+
+.box-1{
+    padding: 15px;
+    background-color: #D7BCC8; 
+    margin: auto;
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px #56A3A6 dashed;
+    border-radius: 3px;
+}
+
+.box-1 h2{
+    color:#5B507A;
+}
